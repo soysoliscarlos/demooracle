@@ -20,6 +20,8 @@ tfplan*
 .terraform/
 */.terraform/
 .terraform.lock.hcl
+*/*.tfstate
+*/*.tfstate.*
 *.tfstate
 *.tfstate.*
 crash.log
