@@ -20,13 +20,16 @@ tfplan*
 .terraform/
 */.terraform/
 .terraform.lock.hcl
-*/*.tfstate
-*/*.tfstate.*
+*/**/.tfstate
+**/**.tfstate.*
 *.tfstate
 *.tfstate.*
 crash.log
 *.tfvars
 *.tfvars.json
+# Ignore Terraform state file
+*/terraform/terraform.tfstate
+*/terraform/terraform.tfstate.backup
 
 # Archivos de sistema y backup
 *.bak
