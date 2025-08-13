@@ -1,4 +1,4 @@
-# DEMO 2 – Integración de Oracle con Azure Data Factory y Power BI  
+# DEMO – Integración de Oracle con Azure Data Factory y Power BI  
 
 **Usando Integration Runtime por defecto**
 
@@ -189,3 +189,4 @@ terraform destroy -var my_ip="<TU_IP>/32" -var oracle_password="<TU_PASSWORD>"
 ## Créditos
 
 Demo creada por Carlos. Infraestructura como código con Terraform y Azure.
+
