@@ -1,0 +1,42 @@
+# Archivos y carpetas típicos a ignorar
+dist/
+build/
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.DS_Store
+Thumbs.db
+node_modules/
+.env
+.env.*
+.idea/
+.vscode/
+*.code-workspace
+
+# Archivos y carpetas de Terraform
+tfplan*
+.terraform/
+*/.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+
+# Archivos de sistema y backup
+*.bak
+*.old
+*.orig
+*.rej
+
+# Archivos de salida de comandos
+*.out
+*.err
+*.pid
+
+# Archivos de configuración de usuario
+*.local
+*.secret
